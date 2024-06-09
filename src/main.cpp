@@ -10,7 +10,11 @@
 int main(int argc, char **argv) {
 	if (false)	// make false to run unit-tests
 	{
-		// debug section
+		// Server server;
+		// User david = server.create_user("david");
+		// User jenifer = server.create_user("jenifer");
+		// bool result = david.send_voice_message("jenifer");
+		// std::cout<< result << std::endl;
 
 	} else {
 		::testing::InitGoogleTest(&argc, argv);
